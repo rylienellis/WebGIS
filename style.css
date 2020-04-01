@@ -134,8 +134,8 @@ h1 {
     margin-top: 20px;
     padding: 10px 20px 10px 20px;
     font-size: 10px;
-    color: #262626;
-    background-color: #e6b3cc;
+    color: rgb(36, 36, 36);
+    background-color: rgb(207, 207, 207);
     border-radius: 7px;
   }
   p.information {
