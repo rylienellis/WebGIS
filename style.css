@@ -21,7 +21,7 @@ h1 {
     font-family: sans-serif;
     color: lightgray;
   }
-  p {
+  p, li {
     font-size: 15px;
     font-family: sans-serif;
     color: #507c7c;
