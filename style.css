@@ -10,7 +10,7 @@ h1 {
     font-family: sans-serif;
     color: #33cccc
   }
-  h3, a {
+  h3 {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
@@ -34,6 +34,12 @@ h1 {
   header {
     text-align:center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  a {
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    color: #33cccc 
   }
   .centered{
     text-align: center;
