@@ -14,7 +14,7 @@ h1 {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
-    color: #507c7c;
+    color: #33cccc;
   }
   h4 { 
     font-size: 15px;
@@ -67,7 +67,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: darkslategray;
+    background-color: #404040;
     border-radius: 7px; /* slightly rounded edges */
   }
   /* this keeps the links of the navigation bar to the left, rather than the default stacked */
