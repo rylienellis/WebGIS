@@ -90,8 +90,8 @@ h1 {
   }
   /* navbar style on hover */
   .navbarlist a:hover {
-    background-color: white;
-    color: darkslategray;
+    background-color: #33cccc;
+    color: #404040;
     border-radius: 7px;
   }
   
