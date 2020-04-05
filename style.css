@@ -132,7 +132,7 @@ h1 {
     margin: 5px;
     background-color: #404040;
   }
-  .tabcontenttext {
+  .tabcontenttext, a {
     text-align: left;
     font-size: 14px;
     font-weight: normal;
