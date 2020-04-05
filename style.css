@@ -55,6 +55,13 @@ h1 {
     padding-bottom: 10px;
   }
   /* END of base CSS */
+
+    /* LOGO */
+
+  .logo {
+    float: left;
+
+  }
   
   /* NAVBAR container and contents / Owner: Lauren */
   
