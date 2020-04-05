@@ -61,8 +61,8 @@ h1 {
   .logo {
     position: absolute;
     float: left;
-    top: 0px;
-    left: 0px;
+    top: 5px;
+    left: 5px;
   }
   
   /* NAVBAR container and contents / Owner: Lauren */
