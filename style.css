@@ -130,12 +130,13 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 7px;
     margin: 5px;
+    background-color: #404040;
   }
   .tabcontenttext {
     text-align: left;
     font-size: 14px;
     font-weight: normal;
-    color: #262626
+    color: white
   }
   /* END of tabs CSS */
   
