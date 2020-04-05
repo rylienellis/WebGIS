@@ -24,4 +24,4 @@ function openName(evt, Name) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
   
-  //End of TABS//
+//End of TABS//
