@@ -8,7 +8,7 @@ h1 {
   h2 {
     font-size: 30px;
     font-family: sans-serif;
-    color: #660033
+    color: #33cccc
   }
   h3 {
     font-size: 20px;
@@ -145,8 +145,8 @@ h1 {
     margin-top: 20px;
     padding: 10px 20px 10px 20px;
     font-size: 10px;
-    color: rgb(36, 36, 36);
-    background-color: rgb(207, 207, 207);
+    color: whitesmoke;
+    background-color: #404040;
     border-radius: 7px;
   }
   p.information {
@@ -154,7 +154,7 @@ h1 {
     padding: 5px;
     font-family: sans-serif;
     font-size: 10px;
-    color: rgb(36, 36, 36);
+    color: whitesmoke;
   }
   .column { /*Columns inspired by https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_column-rule */
     float: left;
