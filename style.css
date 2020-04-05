@@ -19,12 +19,12 @@ h1 {
   h4 { 
     font-size: 15px;
     font-family: sans-serif;
-    color: gray;
+    color:#33cccc;
   }
   p, li {
     font-size: 15px;
     font-family: sans-serif;
-    color: #507c7c;
+    color: #404040;
     letter-spacing: 1px;
   }
   body{
