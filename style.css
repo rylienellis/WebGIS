@@ -59,7 +59,9 @@ h1 {
     /* LOGO */
 
   .logo {
-    float: left;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 
   }
   
