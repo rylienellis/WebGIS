@@ -1,4 +1,4 @@
-//Start of TABS on Our Team page, Owner: Lauren//
+// Start of TABS on What We Tried page //
 
 function openName(evt, Name) {
   // Declare all variables
@@ -24,4 +24,4 @@ function openName(evt, Name) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
   
-//End of TABS//
+// End of TABS //
