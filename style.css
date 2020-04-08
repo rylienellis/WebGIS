@@ -59,7 +59,7 @@ h1 {
     padding-top: 10px; 
     padding-bottom: 10px;
   }
-  .iframeMapbox iframe {
+  .iframeMap iframe {
     position: relative;
     top: 0;
     left: 0;
