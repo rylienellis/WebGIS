@@ -166,8 +166,10 @@ h1 {
     background-color: #404040;
   }
   .iframeLeaf {
-    width: auto;
-    height: 100%;
+    position: relative;
+    padding: 50%;
+    height: 0;
+    max-width: 100%;
   }
 
   /* FOOTER */
