@@ -48,21 +48,28 @@
 <div id="AGOLTimeAware" class="tabcontent">
     <h3>ArcGIS Online: Time Aware</h3>
     <h4>User Experience:</h4>
-    <p class="tabcontenttext">When attempting to load the time series as a feature service within ArcGIS Online, only some portions of the polygon dataset would load, for unknown reasons.  Had to correctly format the dates and then export as a shapefile in order for ArcGIS Online to be able to recognize and set the time series.  Had to do some configuring with the web app but for some reason ArcGIS online formats dates oddly and I'm not sure why. Web app needs more configuration in terms of slow rendering speeds/date configuration.</p>
+    <p class="tabcontenttext">When attempting to load the time series as a feature service within ArcGIS Online, only some portions of the polygon dataset would load, for unknown reasons.  Had to correctly format the dates and then export as a shapefile in order for ArcGIS Online to be able to recognize and set the time series.  Had to do some configuring with the web app but for some reason ArcGIS online formats dates oddly and I'm not sure why - the next step was to look into customizing the dates within github and changing the rendering speeds. (See below for limited options of data customization)</p>
+    <img src="images/Timechanges.png" alt="AGOL online" class="imgFit">
+    <p class="tabcontenttext">After rendering speeds were configured - the dates within the time series were tried to be altered for just 3 ticks where it displayed the data on the time series for data that was available but was unable to be accomplished after many attempts - the variables seem to be linked and would break every time I would alter some variable - A full list of confiugration list of time variables is listed below</p>
+    <img src="images/Configuration.png" alt="congiguration" class="imgFit">
+    <p class="tabcontenttext">Overall this was the most visually appealing and was decided on for the final solution in conjuction with the dashboard solution to provide clarity</p>
+    <img src="images/timeaware1.png" alt="time" class="imgFit">
     <h4>Pros:</h4>
     <ul>
-      <li class="tabcontenttext">relatively easy to configure and customize with a drop-down menu for each year of data</li>
+      <li class="tabcontenttext">relatively easy to configure and customize within the ArcGIS Online Environments - Date + times seem to be finicky</li>
+      <li class="tabcontenttext">Visually appealing with a good user experience</li>
     </ul> 
     <h4>Cons:</h4>
     <ul>
-      <li class="tabcontenttext">slow to render polygons</li>
+      <li class="tabcontenttext">slow to render polygons - needs more configuration outside of the ArcGIS online environment</li>
       <li class="tabcontenttext">limits options to ESRI's suite of products</li>
+      <li class="tabcontenttext">Difficult to configure specific time settings within the Javascript - only limited options available - often would break</li>
     </ul> 
     <h4>Future Possibilities:</h4>
     <ul>
-      <li class="tabcontenttext">explore additional time changes within the code itself</li>
-      <li class="tabcontenttext">add contextal information for the dates instead of just a legend</li>
-      <li class="tabcontenttext">add i-frames to the website to integrate the application</li>
+      <li class="tabcontenttext">explore additional time changes within the code itself with more time</li>
+      <li class="tabcontenttext">add contextal information for the dates instead of just a legend and color extras</li>
+      <li class="tabcontenttext">add i-frames to the website to integrate the application if there was more time</li>
     </ul>
 </div>
 
