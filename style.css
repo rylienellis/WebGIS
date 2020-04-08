@@ -152,6 +152,9 @@ h1 {
     margin: 5px;
     background-color: #404040;
   }
+  .iframe {
+    width: auto;
+  }
   
   /* FOOTER */
   footer {
